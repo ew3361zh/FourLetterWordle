@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#7C699C"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/W5_L1"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:background="#FF9800"
+        android:maxLength="1"
+        android:maxLines="1"
+        android:text=""
+        android:textAlignment="center"
+        android:textSize="60sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/W5_L2"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/W4_L1" />
+
+    <EditText
+        android:id="@+id/W5_L4"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:background="#FF9800"
+        android:maxLength="1"
+        android:maxLines="1"
+        android:textAlignment="center"
+        android:textSize="60sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/W5_L3"
+        app:layout_constraintTop_toBottomOf="@+id/W4_L4" />
+
+    <EditText
+        android:id="@+id/W5_L3"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:background="#FF9800"
+        android:maxLength="1"
+        android:maxLines="1"
+        android:textAlignment="center"
+        android:textSize="60sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/W5_L4"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/W5_L2"
+        app:layout_constraintTop_toBottomOf="@+id/W4_L3" />
+
+    <EditText
+        android:id="@+id/W5_L2"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:background="#FF9800"
+        android:maxLength="1"
+        android:maxLines="1"
+        android:textAlignment="center"
+        android:textSize="60sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/W5_L3"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/W5_L1"
+        app:layout_constraintTop_toBottomOf="@+id/W4_L2" />
+
+    <EditText
+        android:id="@+id/W4_L1"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:background="#FF9800"
+        android:maxLength="1"
+        android:maxLines="1"
+        android:textAlignment="center"
+        android:textSize="60sp"
+        app:layout_constraintBottom_toTopOf="@+id/W5_L1"
+        app:layout_constraintEnd_toStartOf="@+id/W4_L2"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/W3_L1" />
+
+    <EditText
+        android:id="@+id/W4_L4"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:background="#FF9800"
+        android:maxLength="1"
+        android:maxLines="1"
+        android:textAlignment="center"
+        android:textSize="60sp"
+        app:layout_constraintBottom_toTopOf="@+id/W5_L4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/W4_L3"
+        app:layout_constraintTop_toBottomOf="@+id/W3_L4" />
+
+    <EditText
+        android:id="@+id/W4_L3"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:background="#FF9800"
+        android:maxLength="1"
+        android:maxLines="1"
+        android:textAlignment="center"
+        android:textSize="60sp"
+        app:layout_constraintBottom_toTopOf="@+id/W5_L3"
+        app:layout_constraintEnd_toStartOf="@+id/W4_L4"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/W4_L2"
+        app:layout_constraintTop_toBottomOf="@+id/W3_L3" />
+
+    <EditText
+        android:id="@+id/W4_L2"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:background="#FF9800"
+        android:maxLength="1"
+        android:maxLines="1"
+        android:textAlignment="center"
+        android:textSize="60sp"
+        app:layout_constraintBottom_toTopOf="@+id/W5_L2"
+        app:layout_constraintEnd_toStartOf="@+id/W4_L3"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/W4_L1"
+        app:layout_constraintTop_toBottomOf="@+id/W3_L2" />
+
+    <EditText
+        android:id="@+id/W3_L1"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:background="#FF9800"
+        android:maxLength="1"
+        android:maxLines="1"
+        android:textAlignment="center"
+        android:textSize="60sp"
+        app:layout_constraintBottom_toTopOf="@+id/W4_L1"
+        app:layout_constraintEnd_toStartOf="@+id/W3_L2"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/W2_L1" />
+
+    <EditText
+        android:id="@+id/W3_L4"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:background="#FF9800"
+        android:maxLength="1"
+        android:maxLines="1"
+        android:textAlignment="center"
+        android:textSize="60sp"
+        app:layout_constraintBottom_toTopOf="@+id/W4_L4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/W3_L3"
+        app:layout_constraintTop_toBottomOf="@+id/W2_L4" />
+
+    <EditText
+        android:id="@+id/W3_L3"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:background="#FF9800"
+        android:maxLength="1"
+        android:maxLines="1"
+        android:textAlignment="center"
+        android:textSize="60sp"
+        app:layout_constraintBottom_toTopOf="@+id/W4_L3"
+        app:layout_constraintEnd_toStartOf="@+id/W3_L4"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/W3_L2"
+        app:layout_constraintTop_toBottomOf="@+id/W2_L3" />
+
+    <EditText
+        android:id="@+id/W3_L2"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:background="#FF9800"
+        android:maxLength="1"
+        android:maxLines="1"
+        android:textAlignment="center"
+        android:textSize="60sp"
+        app:layout_constraintBottom_toTopOf="@+id/W4_L2"
+        app:layout_constraintEnd_toStartOf="@+id/W3_L3"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/W3_L1"
+        app:layout_constraintTop_toBottomOf="@+id/W2_L2" />
+
+    <EditText
+        android:id="@+id/W2_L1"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:background="#FF9800"
+        android:maxLength="1"
+        android:maxLines="1"
+        android:textAlignment="center"
+        android:textSize="60sp"
+        app:layout_constraintBottom_toTopOf="@+id/W3_L1"
+        app:layout_constraintEnd_toStartOf="@+id/W2_L2"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/W1_L1" />
+
+    <EditText
+        android:id="@+id/W2_L4"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:background="#FF9800"
+        android:maxLength="1"
+        android:maxLines="1"
+        android:textAlignment="center"
+        android:textSize="60sp"
+        app:layout_constraintBottom_toTopOf="@+id/W3_L4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/W2_L3"
+        app:layout_constraintTop_toBottomOf="@+id/W1_L4" />
+
+    <EditText
+        android:id="@+id/W2_L3"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:background="#FF9800"
+        android:maxLength="1"
+        android:maxLines="1"
+        android:textAlignment="center"
+        android:textSize="60sp"
+        app:layout_constraintBottom_toTopOf="@+id/W3_L3"
+        app:layout_constraintEnd_toStartOf="@+id/W2_L4"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/W2_L2"
+        app:layout_constraintTop_toBottomOf="@+id/W1_L3" />
+
+    <EditText
+        android:id="@+id/W2_L2"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:background="#FF9800"
+        android:maxLength="1"
+        android:maxLines="1"
+        android:textAlignment="center"
+        android:textSize="60sp"
+        app:layout_constraintBottom_toTopOf="@+id/W3_L2"
+        app:layout_constraintEnd_toStartOf="@+id/W2_L3"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/W2_L1"
+        app:layout_constraintTop_toBottomOf="@+id/W1_L2" />
+
+    <EditText
+        android:id="@+id/W1_L2"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:background="#FF9800"
+        android:maxLength="1"
+        android:maxLines="1"
+        android:textAlignment="center"
+        android:textSize="60sp"
+        app:layout_constraintBottom_toTopOf="@+id/W2_L2"
+        app:layout_constraintEnd_toStartOf="@+id/W1_L3"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/W1_L1"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/W1_L3"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:background="#FF9800"
+        android:maxLength="1"
+        android:maxLines="1"
+        android:textAlignment="center"
+        android:textSize="60sp"
+        app:layout_constraintBottom_toTopOf="@+id/W2_L3"
+        app:layout_constraintEnd_toStartOf="@+id/W1_L4"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/W1_L2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/W1_L4"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:background="#FF9800"
+        android:maxLength="1"
+        android:maxLines="1"
+        android:textAlignment="center"
+        android:textSize="60sp"
+        app:layout_constraintBottom_toTopOf="@+id/W2_L4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/W1_L3"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/W1_L1"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:background="#FF9800"
+        android:maxLength="1"
+        android:maxLines="1"
+        android:textAlignment="center"
+        android:textSize="60sp"
+        app:layout_constraintBottom_toTopOf="@+id/W2_L1"
+        app:layout_constraintEnd_toStartOf="@+id/W1_L2"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
