@@ -1,11 +1,9 @@
 package com.nikosnockoffs.android.fourletterwordle
 
 import androidx.lifecycle.ViewModel
+import kotlin.random.Random
 
 class WordListViewModel : ViewModel() {
-
-
-    // TODO get randomized number to pick word for user
 
     private val wordList = listOf<String>(
         "aahs", "aals", "abas", "abba", "abbe",
@@ -807,4 +805,21 @@ class WordListViewModel : ViewModel() {
         "zona", "zone", "zonk", "zoom", "zoon",
         "zoos", "zori", "zouk"
     )
+
+//    public var guessCount = 0
+//
+//    fun nextGuess(): Int {
+//        guessCount++
+//        return guessCount
+//    }
+
+    // get randomized number to pick word for user
+    fun getWord(): String {
+        val randomSelection = Random.nextInt(wordList.size) // pick a random number based on the size of the wordList
+        val randomWord = wordList[randomSelection] // select the word picked randomly by the random number
+        return randomWord
+    }
+
+
+
 }

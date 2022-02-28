@@ -261,7 +261,7 @@
         app:layout_constraintEnd_toStartOf="@+id/W1_L3"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/W1_L1"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/check_word_button" />
 
     <EditText
         android:id="@+id/W1_L3"
@@ -276,7 +276,7 @@
         app:layout_constraintEnd_toStartOf="@+id/W1_L4"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/W1_L2"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/check_word_button" />
 
     <EditText
         android:id="@+id/W1_L4"
@@ -291,7 +291,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/W1_L3"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/check_word_button" />
 
     <EditText
         android:id="@+id/W1_L1"
@@ -305,6 +305,19 @@
         app:layout_constraintBottom_toTopOf="@+id/W2_L1"
         app:layout_constraintEnd_toStartOf="@+id/W1_L2"
         app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/check_word_button" />
+
+    <Button
+        android:id="@+id/check_word_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#F82A1A"
+        android:text="@string/check_word"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
